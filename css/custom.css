@@ -28,7 +28,39 @@
   background-color: var(--lightGreenColor);
 }
 .borderColor {
-  border-color: var(--borderGrayColor);
+  border-color: var(--primaryLight);
+}
+.btnPrimary {
+  background-color: var(--primaryColor);
+  color: var(--white);
+}
+.btnPrimary:hover {
+  box-shadow: 2px 2px 4px silver;
+  color: var(--white);
+}
+.btnSecondary {
+  background-color: var(--secondaryColor);
+  color: var(--white);
+}
+.btnSecondary:hover {
+  box-shadow: 2px 2px 4px silver;
+  color: var(--white);
+}
+.btnLight {
+  background-color: var(--primaryLight);
+  color: var(--primaryColor);
+}
+.btnLight:hover {
+  background-color: var(--secondaryColor);
+  color: var(--white);
+}
+
+.btnSuccess {
+  background-color: var(--greenColor);
+  color: var(--white);
+}
+.btnSuccess:hover {
+  box-shadow: 2px 2px 4px silver;
 }
 
 /* overwrite style */
@@ -122,26 +154,28 @@
   color: var(--secondaryColor);
   border-bottom: 2px solid var(--secondaryColor);
 }
-.headerContainer .btnSuccess {
-  background-color: var(--greenColor);
-  color: var(--white);
-}
-.btnSuccess:hover {
-  box-shadow: 2px 2px 4px silver;
-}
-.headerContainer .btnPrimary {
-  background-color: var(--primaryColor);
-  color: var(--white);
-}
 
 .controlsContainer {
-  border-top: 1px solid var(--borderGrayColor);
+  border-top: 1px solid var(--primaryLight);
 }
 .controlsContainer label {
   margin-bottom: 6px;
   font-size: 0.875rem;
   font-weight: 400;
   color: var(--primaryColor);
+}
+.controlsContainer .headerContainer {
+  box-sizing: border-box;
+  align-items: baseline;
+}
+.controlsContainer .headerContainer h4 {
+  color: var(--primaryDark);
+  font-size: 0.875rem;
+  margin: 8px 16px;
+}
+.controlsContainer .headerContainer button.active {
+  background-color: var(--secondaryColor);
+  color: var(--white);
 }
 
 /* cardContainer  */
@@ -189,4 +223,29 @@
 .subText {
   font-weight: 300;
   margin-bottom: 0.875rem;
+}
+
+/* table style */
+
+.projects_attendance_table thead tr th {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primaryColor);
+  padding-left: 2px;
+}
+.projects_attendance_table tbody tr td {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primaryColor);
+  padding-left: 2px;
+}
+.dataTables_info{
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primaryDark);
+}
+.page-item.active .page-link{
+  background-color: var(--primaryColor);
+  border-color: var(--primaryDark);
+  color: var(--white);
 }

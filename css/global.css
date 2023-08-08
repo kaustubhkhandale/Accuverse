@@ -2,12 +2,12 @@
 :root {
   --primaryColor: #354a85;
   --primaryDark: #142453;
+  --primaryLight: #dee2e6;
   --secondaryColor: #c0944a;
   --redColor: #b43232;
   --lightRedColor: rgba(180, 50, 50, 0.199);
   --greenColor: #00bfba;
   --lightGreenColor: rgba(0, 191, 185, 0.199);
-  --borderGrayColor: #dee2e6;
   --placeholder: #adb5bd;
   --dropdownIcon: #adb5bd;
   --white: #ffffff;
