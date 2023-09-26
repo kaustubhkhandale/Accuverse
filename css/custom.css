@@ -239,12 +239,12 @@
   color: var(--primaryColor);
   padding-left: 2px;
 }
-.dataTables_info{
+.dataTables_info {
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--primaryDark);
 }
-.page-item.active .page-link{
+.page-item.active .page-link {
   background-color: var(--primaryColor);
   border-color: var(--primaryDark);
   color: var(--white);
