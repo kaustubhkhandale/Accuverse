@@ -21,6 +21,9 @@
 .bgSecondary {
   background-color: var(--secondaryColor);
 }
+.bgPrimaryLight {
+  background-color: var(--primaryLight);
+}
 .bgLightRed {
   background-color: var(--lightRedColor);
 }
@@ -40,11 +43,11 @@
 }
 .btnSecondary {
   background-color: var(--secondaryColor);
-  color: var(--white);
+  color: var(--primaryColor);
 }
 .btnSecondary:hover {
   box-shadow: 2px 2px 4px silver;
-  color: var(--white);
+  color: var(--primaryColor);
 }
 .btnLight {
   background-color: var(--primaryLight);
@@ -248,4 +251,33 @@
   background-color: var(--primaryColor);
   border-color: var(--primaryDark);
   color: var(--white);
+}
+
+/* Pills */
+.pill {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primaryLight);
+  color: var(--primaryColor);
+  font-size: 14px;
+  font-weight: 400;
+  width: fit-content;
+  padding: 0.5rem 0.75rem;
+  border-radius: 30px;
+  border: 1px solid var(--primaryLight);
+}
+.pill:hover {
+  box-shadow: 1px 2px 6px silver;
+  border: 1px solid var(--primaryColor);
+}
+.deletePillIcon {
+  margin-left: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--dropdownIcon);
+  cursor: pointer;
+}
+.deletePillIcon:hover {
+  color: var(--redColor);
 }
