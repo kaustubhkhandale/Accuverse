@@ -157,10 +157,21 @@
   color: var(--secondaryColor);
   border-bottom: 2px solid var(--secondaryColor);
 }
-
-.controlsContainer {
-  border-top: 1px solid var(--primaryLight);
+.sticky {
+  position: sticky;
+  top: 56px;
+  z-index: 3;
+  background-color: #fff;
+  padding: 16px 0px 20px 0;
+  border-bottom: 1px solid var(--primaryLight);
 }
+.stickyForm {
+  position: sticky;
+  top: 132px;
+  z-index: 3;
+  background-color: #fff;
+}
+
 .controlsContainer label {
   margin-bottom: 6px;
   font-size: 0.875rem;
