@@ -191,7 +191,11 @@
   background-color: var(--secondaryColor);
   color: var(--white);
 }
-
+.title_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* cardContainer  */
 .cardsContainer {
 }
