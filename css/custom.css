@@ -118,7 +118,7 @@
 
 /* financial analysis submenu */
 .mainContainer {
-  padding: 1.875rem;
+  padding: 0 1.5rem;
 }
 .headerContainer {
   box-sizing: border-box;
@@ -167,7 +167,7 @@
 }
 .stickyForm {
   position: sticky;
-  top: 132px;
+  top: 70px;
   z-index: 3;
   background-color: #fff;
 }
